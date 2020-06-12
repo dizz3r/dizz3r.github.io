@@ -1,0 +1,84 @@
+html{
+    height: 100%;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+header{
+	flex: 0 0 auto;
+	display: flex;
+	border: 1px solid black;
+
+
+}
+
+nav{
+	padding: 10px;
+	flex: 3;
+
+}
+
+#logo{
+	padding: 10px;
+	flex: 1;
+}
+
+main{
+	flex: 1 0 auto;
+	padding: 10px;
+	display: flex;
+
+}
+
+#settings{
+	padding: 10px;
+	flex: 1;
+	border: 1px solid black;
+}
+
+#setting{
+	padding: 10px;
+	border: 1px solid black;
+}
+
+#content{
+	flex: 4;
+	display: flex;
+	border: 1px solid black;
+	padding: 10px;
+
+}
+
+#picture1{
+	flex: 1;
+	padding: 10px;
+}
+
+#picture2{
+	flex: 1;
+	padding: 10px;
+}
+
+#graf1{
+	border: 1px solid black;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+footer{
+	flex: 0 0 auto;
+	padding: 10px;
+	display: flex;
+
+}
+
+.graf{
+	flex: 1 0 auto;
+	padding: 10px;
+	border: 1px solid black;
+}
